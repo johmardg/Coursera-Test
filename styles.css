@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+p {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	background-color: #7A7C7D;
+	height: 140px;
+	border: 1px solid black;
+}
+h1 {
+	margin-bottom: 15px;
+	font-family: Comic Sans MS;
+	font-size: 175%
+}
+/**Desktop View**/
+@media (min-width: 992px) {
+	.col-dt-4 {
+		float: left;
+		font-family: Comic Sans MS;
+	}
+	.col-dt-4 {
+		width: 33.33%;
+	}
+}
+
+/**Tablet View**/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-tl-2, .col-tl-6, .col-tl-12 {
+		float: left;
+		font-family: Comic Sans MS;
+	}
+	.col-tl-2 {
+		width: 16.66%;
+	}
+	.col-tl-6 {
+		width: 50%;
+	}
+	.col-tl-12 {
+		width: 100%;
+	}
+}
+
+/**Mobile View**/
+@media (max-width: 767px) {
+	.col-mb-12 {
+		float: left;
+		font-family: Comic Sans MS;
+	}
+	.col-mb-12 {
+		width: 100%;
+	}
+}
+/**Heading for each box**/
+.boxheading-dt{
+	float: right;
+	border: 1px solid black;
+	font-size: 125%;
+	font-family: Comic Sans MS;
+	height: auto;
+	padding: 0px;
+	background-color: #17197D;
+	color: #E1DFCF;
+}
+.boxheading-tl{
+	float: right;
+	border: 1px solid black;
+	font-size: 125%;
+	font-family: Comic Sans MS;
+	height: auto;
+	padding: 0px;
+	background-color: #21AD29;
+	color: #FFFFFF;
+}
+.boxheading-mb{
+	float: right;
+	border: 1px solid black;
+	font-size: 125%;
+	font-family: Comic Sans MS;
+	height: auto;
+	padding: 0px;
+	background-color: #E36E50;
+	color: #FFFFFF;
+.row {
+	width: 100%;
+}
+
